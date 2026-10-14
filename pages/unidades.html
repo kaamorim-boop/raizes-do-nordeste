@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolha sua unidade | Raízes do Nordeste</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Voltar para o início">
+      <span class="brand-mark">🌵</span>
+      <span>
+        <strong>Raízes</strong>
+        <strong>do Nordeste</strong>
+        <small>LANCHONETES</small>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="../index.html">Início</a>
+      <a href="cardapio.html">Cardápio</a>
+      <a href="#">Promoções</a>
+      <a href="#">Fidelidade</a>
+      <a href="#">Perfil</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main class="unit-page container">
+    <a class="back-link" href="../index.html">← Voltar</a>
+
+    <section class="page-heading">
+      <span class="eyebrow text-orange">Onde você quer pedir?</span>
+      <h1>Escolha sua unidade</h1>
+      <p>Selecione onde você deseja retirar seu pedido para vermos o cardápio disponível.</p>
+    </section>
+
+    <div class="search-box">
+      <span aria-hidden="true">⌕</span>
+      <input id="unit-search" type="search" placeholder="Buscar unidade..." aria-label="Buscar unidade">
+    </div>
+
+    <section id="unit-list" class="unit-list" aria-live="polite"></section>
+
+    <div class="selection-footer">
+      <p id="selection-message">Nenhuma unidade selecionada.</p>
+      <button id="confirm-unit" class="btn btn-primary" disabled>Confirmar unidade</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">© 2026 Raízes do Nordeste — Projeto acadêmico.</p>
+  </footer>
+
+  <script src="../data/mock-data.js"></script>
+  <script src="../js/unidades.js"></script>
+</body>
+</html>

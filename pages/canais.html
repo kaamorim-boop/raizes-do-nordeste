@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demonstração multicanal da Rede Raízes do Nordeste: Web, App e Totem.">
+  <title>Experiência Multicanal | Raízes do Nordeste</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .channel-hero{padding:44px 20px 24px}.channel-hero h1{margin:.25rem 0 .6rem}.channel-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.channel-tab{border:1px solid #ddd;border-radius:999px;padding:10px 16px;background:#fff;cursor:pointer;font-weight:700}.channel-tab.active{background:#222;color:#fff}.channel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.channel-card{background:#fff;border:1px solid #e5e5e5;border-radius:20px;padding:22px;box-shadow:0 8px 24px rgba(0,0,0,.06)}.device{border:8px solid #222;border-radius:28px;padding:14px;min-height:330px;background:#faf7f2}.totem{border-radius:18px;min-height:330px}.device-head{display:flex;justify-content:space-between;font-size:.8rem;color:#666;margin-bottom:18px}.mock-btn{display:block;width:100%;padding:12px;border:0;border-radius:12px;background:#e7a23b;color:#fff;font-weight:800;margin-top:12px}.mock-item{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #eee}.flow{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.flow span{padding:8px 12px;border-radius:10px;background:#f1eee9;font-size:.88rem}.channel-note{margin-top:22px;padding:16px;border-left:4px solid #e7a23b;background:#fff8ed;border-radius:10px}.channel-section{padding:0 20px 48px}.channel-section h2{margin-top:34px}@media(max-width:850px){.channel-grid{grid-template-columns:1fr}.channel-card:nth-child(n+2){display:none}.channel-tabs{overflow:auto;flex-wrap:nowrap}.channel-tab{white-space:nowrap}}
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html" aria-label="Raízes do Nordeste - início"><span class="brand-mark">🌵</span><span><strong>Raízes</strong><strong>do Nordeste</strong><small>LANCHONETES</small></span></a>
+  <nav class="main-nav" aria-label="Navegação principal">
+    <a href="../index.html">Início</a><a href="cardapio.html">Cardápio</a><a href="fidelidade.html">Fidelidade</a><a href="perfil.html">Perfil</a><a href="canais.html" class="active">Canais</a>
+  </nav>
+</header>
+<main>
+  <section class="channel-hero container">
+    <span class="eyebrow">Projeto multicanal</span>
+    <h1>Uma experiência consistente em Web, App e Totem</h1>
+    <p>Os três canais representam a mesma jornada de pedido, adaptando navegação, tamanho dos elementos e contexto de uso.</p>
+    <div class="channel-tabs" role="tablist" aria-label="Canais">
+      <button class="channel-tab active" data-channel="web">Web</button>
+      <button class="channel-tab" data-channel="app">App</button>
+      <button class="channel-tab" data-channel="totem">Totem</button>
+    </div>
+  </section>
+  <section class="channel-section container">
+    <div class="channel-grid">
+      <article class="channel-card channel-web">
+        <h2>Web</h2><p>Canal completo para navegação, pedido, fidelidade e acompanhamento.</p>
+        <div class="device"><div class="device-head"><b>Raízes</b><span>09:41</span></div><strong>Escolha sua unidade</strong><div class="mock-item"><span>📍 Itapevi</span><b>›</b></div><div class="mock-item"><span>🍔 Cardápio</span><b>›</b></div><button class="mock-btn">Pedir agora</button></div>
+      </article>
+      <article class="channel-card channel-app">
+        <h2>App</h2><p>Experiência mobile-first, com acesso rápido à unidade, pedido e status.</p>
+        <div class="device"><div class="device-head"><b>Raízes</b><span>9:41</span></div><span class="eyebrow">Unidade selecionada</span><h3>Itapevi</h3><div class="mock-item"><span>⭐ 240 pontos</span><b>›</b></div><div class="mock-item"><span>🛍️ Meu pedido</span><b>›</b></div><button class="mock-btn">Abrir cardápio</button></div>
+      </article>
+      <article class="channel-card channel-totem">
+        <h2>Totem</h2><p>Interface simplificada para autoatendimento presencial, com foco em toque e leitura rápida.</p>
+        <div class="device totem"><div class="device-head"><b>AUTOATENDIMENTO</b><span>Totem</span></div><h3>Olá! O que você deseja?</h3><button class="mock-btn">🍔 Fazer pedido</button><button class="mock-btn">🔎 Consultar pedido</button><button class="mock-btn">⭐ Fidelidade</button></div>
+      </article>
+    </div>
+    <div class="channel-note"><strong>Regra de negócio compartilhada:</strong> os canais utilizam a mesma lógica conceitual de unidade, cardápio, carrinho, pagamento externo simulado e acompanhamento do pedido. A diferença está principalmente na apresentação e no contexto de uso.</div>
+    <h2>Jornada principal</h2>
+    <div class="flow" aria-label="Fluxo principal"><span>1. Início</span><span>2. Unidade</span><span>3. Cardápio</span><span>4. Produto</span><span>5. Carrinho</span><span>6. Fidelidade/Promoção</span><span>7. Pagamento</span><span>8. Resultado</span><span>9. Confirmação</span><span>10. Acompanhamento</span></div>
+    <h2>O que muda por canal</h2>
+    <div class="channel-card">
+      <p><strong>Web:</strong> maior espaço para navegação, histórico e informações complementares.</p>
+      <p><strong>App:</strong> ações frequentes ficam mais próximas do usuário e a interface prioriza uso em telas pequenas.</p>
+      <p><strong>Totem:</strong> menos etapas por tela, botões maiores e comunicação direta para uso presencial.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><p class="copyright">© 2026 Raízes do Nordeste — Projeto acadêmico.</p></footer>
+<script>
+document.querySelectorAll('.channel-tab').forEach(tab=>tab.addEventListener('click',()=>{
+  document.querySelectorAll('.channel-tab').forEach(t=>t.classList.remove('active')); tab.classList.add('active');
+  document.querySelectorAll('.channel-card').forEach(card=>card.style.display='none');
+  const selected=document.querySelector('.channel-'+tab.dataset.channel); if(selected) selected.style.display='block';
+  if(window.innerWidth>850) document.querySelectorAll('.channel-card').forEach(card=>card.style.display='block');
+}));
+</script>
+</body>
+</html>
