@@ -80,7 +80,7 @@ const products = [
     'Lanches',
     18.90,
     'Tapioca recheada com carne de sol e queijo coalho.',
-    'imagens/tapioca-de-carne-seca.webp'
+    '../imagens/tapioca-de-carne-seca.webp'
   ],
   [
     8,
@@ -88,7 +88,7 @@ const products = [
     'Lanches',
     15.90,
     'Acarajé com vatapá, camarão seco e vinagrete.',
-    'imagens/acaraje.jpg'
+    '../imagens/acaraje.jpg'
   ],
   [
     9,
@@ -96,7 +96,7 @@ const products = [
     'Lanches',
     8.90,
     'Coxinha crocante com recheio cremoso de frango.',
-    'imagens/coxinha.webp'
+    '../imagens/coxinha.webp'
   ],
   [
     10,
@@ -112,7 +112,7 @@ const products = [
     'Pratos',
     27.90,
     'Arroz, feijão, carne de sol, queijo coalho e temperos regionais.',
-    'imagens/baiaodedois.jpg'
+    '../imagens/baiaodedois.jpg'
   ],
   [
     12,
@@ -120,7 +120,7 @@ const products = [
     'Pratos',
     29.90,
     'Carne de sol grelhada, acompanhada de arroz e farofa.',
-    'imagens/carnedesol.jpg'
+    '../imagens/carnedesol.jpg'
   ],
   [
     13,
@@ -128,7 +128,7 @@ const products = [
     'Pratos',
     29.90,
     'Carne de sol, feijão verde, arroz, farofa e vinagrete.',
-    'imagens/arrumadinhodecarnedesol.jpeg'
+    '../imagens/arrumadinhodecarnedesol.jpeg'
   ],
   [
     14,
@@ -136,7 +136,7 @@ const products = [
     'Pratos',
     28.90,
     'Macaxeira cozida, carne de sol e manteiga de garrafa.',
-    'imagens/macaxeiracomcarnedesol.jpeg'
+    '../imagens/macaxeiracomcarnedesol.jpeg'
   ],
   [
     15,
@@ -144,7 +144,7 @@ const products = [
     'Pratos',
     26.90,
     'Arroz, frango, temperos e especiarias nordestinas.',
-    'imagens/galinhada.jpg'
+    '../imagens/galinhada.jpg'
   ],
   [
     16,
@@ -152,7 +152,7 @@ const products = [
     'Pratos',
     25.90,
     'Purê de macaxeira cremoso com carne de sol e queijo.',
-    'imagens/escondidinho.jpeg'
+    '../imagens/escondidinho.jpeg'
   ],
   [
     17,
@@ -160,7 +160,7 @@ const products = [
     'Pratos',
     16.90,
     'Cuscuz de milho servido com queijo coalho e acompanhamentos.',
-    'imagens/cuscuz-nordestino-temperado.webp'
+    '../imagens/cuscuz-nordestino-temperado.webp'
   ],
   [
     18,
@@ -168,7 +168,7 @@ const products = [
     'Sobremesas',
     9.90,
     'Cocada cremosa de coco com textura macia.',
-    'imagens/cocada-cremosa-13143.png'
+    '../imagens/cocada-cremosa-13143.png'
   ],
   [
     19,
@@ -176,7 +176,7 @@ const products = [
     'Sobremesas',
     11.90,
     'Banana, queijo coalho, canela e açúcar.',
-    'imagens/cartola.webp'
+    '../imagens/cartola.webp'
   ],
   [
     20,
@@ -184,7 +184,7 @@ const products = [
     'Sobremesas',
     10.90,
     'Pudim cremoso com calda de caramelo.',
-    'imagens/pudim.webp'
+    '../imagens/pudim.webp'
   ],
   [
     21,
@@ -192,7 +192,7 @@ const products = [
     'Sobremesas',
     12.90,
     'Fatia tradicional de bolo de rolo com goiabada.',
-    'imagens/boloderolo.jpeg'
+    '../imagens/boloderolo.jpeg'
   ],
   [
     22,
