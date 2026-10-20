@@ -72,7 +72,7 @@ const products = [
     'Lanches',
     12.90,
     'Tapioca quentinha recheada com queijo coalho.',
-    'https://loremflickr.com/800/600/tapioca,food?lock=6'
+    '../imagens/tapiocadequeijocoalho.jpeg'
   ],
   [
     7,
@@ -104,7 +104,7 @@ const products = [
     'Lanches',
     9.90,
     'Pastel crocante recheado com carne temperada.',
-    'https://loremflickr.com/800/600/pastel,brazilian,food?lock=10'
+    '../imagens/pasteldecarne.png'
   ],
   [
     11,
